@@ -1,0 +1,24 @@
+{
+  "name": "is-wednesday",
+  "version": "1.0.0",
+  "description": "A simple, powerful package to determine if a Date object is of the day Wednesday.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaJuukes/is-wednesday.git"
+  },
+  "keywords": [
+    "is",
+    "wednesday",
+    "powerful"
+  ],
+  "author": "DaJuukes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaJuukes/is-wednesday/issues"
+  },
+  "homepage": "https://github.com/DaJuukes/is-wednesday#readme"
+}
