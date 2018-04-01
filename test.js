@@ -16,4 +16,14 @@ describe('Date checking', function () {
 
         assert.ok(dateCheck(dateToCheck));
     });
+
+    it ('should use Date.now() successfully', function () {
+        const dateToCheck = Date.now();
+
+        assert.ifError(dateCheck(dateToCheck));
+    });
+
+    it ('should throw if value is invalid', function () {
+        assert.throws(() => {dateCheck(' some invalid value ');}, TypeError);
+    });
 });

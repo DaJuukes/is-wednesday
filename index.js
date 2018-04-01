@@ -1,11 +1,10 @@
 const check = require('./checkdate.js');
 
 module.exports = function (data) {
-    //console.log(typeof data);
     if (data instanceof Date) {
     //raw date object
         return check(data);
-    } else if (typeof data == Number) {
+    } else if (!isNaN(data)) {
     //treat as milliseconds
         return check(new Date(data));
     } else {
