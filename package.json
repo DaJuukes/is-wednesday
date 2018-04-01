@@ -1,6 +1,6 @@
 {
   "name": "is-wednesday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, powerful package to determine if a Date object is of the day Wednesday.",
   "main": "index.js",
   "scripts": {
