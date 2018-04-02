@@ -21,15 +21,5 @@
     "url": "https://github.com/DaJuukes/is-wednesday/issues"
   },
   "homepage": "https://github.com/DaJuukes/is-wednesday#readme",
-  "devDependencies": {
-    "@mocha/eslint-config-mocha": "0.0.0",
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.10.0",
-    "eslint-plugin-mocha": "^5.0.0",
-    "eslint-plugin-mocha-only": "0.0.3",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.0.1"
-  },
   "dependencies": {}
 }
