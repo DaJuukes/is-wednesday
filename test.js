@@ -25,6 +25,10 @@ describe('Date checking', function () {
         assert.ok(dateCheck('April 3, 2 23:15:30'));
     });
 
+    it ('should give current date if no arg is passed', function () {
+        assert.ifError(dateCheck());
+    });
+
     it ('should throw if value is invalid', function () {
         assert.throws(() => {dateCheck(' some invalid value ');}, TypeError);
     });

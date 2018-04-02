@@ -19,6 +19,8 @@ module.exports = function (data) {
         else {
             return check(trydate);
         }
+    } else if (data == null) {
+        return check(new Date());
     } else {
         throw new TypeError('That is not a Date, Number, or String object.');
     }
